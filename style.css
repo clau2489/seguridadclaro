@@ -1,0 +1,739 @@
+/* fondo:262621;*/
+
+body{	
+	padding: 0;
+	margin:0;
+	background-image: url(imagenes/fondo1.png);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	height: 100%;
+}
+/* Aca empieza menu de navegacion general*/
+#contenedor-general{
+	background-color: #262621;
+	width: 100%;
+	display: inline-block;
+}
+#contenedor{
+	text-align: right;
+	width: 85%;
+	float: right;
+}
+#Contenedor-logo{
+	width: 10%;
+	float: left;
+	padding-right: 10%;
+}
+.navegacion{
+	list-style:none;
+	color: #fff;
+	text-decoration: none;
+	display: inline-block;
+	font-family: consolas;
+	font-size: 15px;
+}
+#nav li a{
+	font-family: consolas;
+	font-size: 15px;
+
+}
+nav #nav	{
+	list-style: none;
+}
+nav li{
+	position: relative;
+}
+nav li ul{
+    display: none;
+    position: absolute;
+    width: 93%;
+}
+nav #submenu{
+	text-align: center;
+	padding: 10px;
+}
+nav a {
+	color: #ddd;
+	display: block;
+	padding: 10px 2.9em;
+	text-decoration: none;
+	transition: .5s;
+}
+nav a:hover{
+	background: #fff;
+	color: #262621;
+
+}
+nav li:hover > ul{
+	display: block;
+}
+nav > ul{
+	background: #262621;
+	display: table;
+}
+nav > ul > li{
+	float: left;
+}
+/*Segundo nivel del menu*/
+nav li li{
+	background: #262621;
+	width: 107%;
+	right: 40px;
+	height: 100%;
+	list-style: none;
+}
+/*Aca termina el menu de navegacion*/
+
+#index{	
+	width: 100%;
+	height: 3000px;
+	/*Hay que establecer un tamaño de section para saber en donde empieza el pie*/
+}
+.row {
+    width: 100%;
+    max-width: 1066px;
+    margin: 0 auto;
+    background: #ddd;  
+}
+.banner {
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    background-color: #ddd;
+
+}
+.homepoll--simple {
+    background-color: transparent;    
+}
+.title--block {
+    font: bold 28px/38px 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    padding-bottom: 31px;
+    margin-top: 10px;
+}
+.title--block:after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 10px;
+    margin-top: 14px;
+    background-color: black;
+}
+.col__aside {
+    width: 300px;
+    float: right;
+}
+element.style {
+    display: none;
+}
+.wf-active a {
+    transition: all .2s;
+    -ms-transition: all .2s;
+    -moz-transition: all .2s;
+    -webkit-transition: all .2s;
+}
+.modchapa {
+    width: 300px;
+    margin-bottom: 30px;
+    height: 153px;
+    position: relative;
+    text-align: left;
+}
+.modapplicaciones {
+    background: #f2f2f3;
+    padding: 27px 17px;
+    margin-bottom: 30px;
+}
+.mod__title {
+    font-size: 18px;
+    line-height: 18px;
+    margin-bottom: 19px;
+    font-weight: bold;
+}
+.mod__title:after {
+    background: #000;
+    content: '';
+    display: block;
+    height: 3px;
+    margin-top: 9px;
+    width: 33px;
+}
+.modapplicaciones__search {
+    position: relative;
+}
+.modapplicaciones__ul {
+    margin: 0 -6px 0 -3px;
+}
+/*trae problemas con el menu principal
+ul, ol, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;*/
+}
+.modapplicaciones__a {
+    font: bold 15px/18px 'PT Sans', sans-serif;
+    display: block;
+    padding: 8px 10px 7px 38px;
+    color: #000;
+    border-radius: 125px;
+    margin-bottom: 1px;
+    position: relative;
+}
+.modapplicaciones__a:before {
+    position: absolute;
+    color: #10a3c2;
+    left: 11px;
+    font-size: 13px;
+    top: 10px;
+}
+.icono:before {
+    display: inline-block;
+    font-family: "iconos";
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.modcumple {
+    background: #f2f2f3;
+    padding: 27px 20px 31px;
+    margin: 0 0 30px;
+}
+ .modcumple__lkn .modcumple__popup{
+ 	color: black;
+}
+.modcumple__content {
+    margin: 21px 0 0;
+}
+.modcumple .modcumple-container {
+    margin: 0px -15px 0px 0;
+    padding-right: 15px;
+    height: 189px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.modchapa__figure img {
+    width: 300px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: auto;
+}
+.modchapa__data {
+    width: 300px;
+    height: 153px;
+    position: absolute;
+    left: 0px;
+    top: 0;
+}
+.wf-active a {
+    transition: all .2s;
+    -ms-transition: all .2s;
+    -moz-transition: all .2s;
+    -webkit-transition: all .2s;
+}
+.modchapa__text {
+    display: block;
+    margin-top: 22px;
+    position: relative;
+    color: #fff;
+    padding: 0 0 0 22px;
+    font-weight: bold;
+    font: 600 22px/28px 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    width: 100%;
+    box-sizing: border-box;
+}
+.modchapa__text:before {
+    content: "\EA38";
+    position: absolute;
+    right: 25px;
+    font-size: 15px;
+    top: 4px;
+    transition: all .2s ease-out;
+    -ms-transition: all .2s ease-out;
+    -moz-transition: all .2s ease-out;
+    -webkit-transition: all .2s ease-out;
+}
+.modchapa__text:after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 33px;
+    height: 3px;
+    background: white;
+    margin: 5px 0 0;
+}
+.modchapa__logo {
+    position: absolute;
+    width: 70px;
+    bottom: 18px;
+    right: 20px;
+}
+.col__aside + .col__main {
+    padding-right: 23px;
+}
+.col__aside + .col__main {
+    margin-right: 324px;
+    margin-left: auto;
+}
+
+.col__main {
+    margin-left: 324px;
+}
+.row:after, .row--full:after {
+    display: block;
+    content: "";
+    clear: both;
+}
+/* Pie de página de todas las pestañas*/
+.footer{
+	bottom: 0; /* Hay que establecer margen bottom en 0 para que el pie quede al final de la pagina*/
+	left: 0; /* Margen derecho en 0 para que no genere espacios a la derecha*/
+	right: 0; /* Margen izquierdo en 0 para que no genere espacios a la izquierda*/
+	background-color:#262621;
+	padding: 10px;
+	text-align: center;
+	color: #fff;
+	font-family: consolas;
+}
+
+
+/* Aca empieza los estilos de la pestaña "Inventario General - tablas"-----------------------*/
+/*
+caption{
+	background-color: #262621;
+	color: white;
+	padding: 20px;
+	font-size: 50px;
+	padding-top: 150px;
+}
+
+table{
+	background-color: white;
+	text-align: left;
+	width: 100%;	
+	border-collapse: collapse;
+}
+
+th, td{	
+	padding: 10px;
+
+}
+
+thead{
+	background-color: #246355;
+	border-bottom: solid 5px #0f362d;
+	color: white;
+
+}
+tr:nth-child(even){/*Aca tmb puede ser odd en ves de even*//*
+	background-color: #ddd;
+
+}
+tr:hover td{/*hover es para que ilumine las filas - Se coloca td para que solo ilumine el td, sino tmb ilumina el tr*//*
+	background-color: #369681;
+	color: white;
+}
+/*
+
+/*Aca comienzan los estilos de "Videos"*/
+
+video{
+	width: 30%;
+	transition: all 0.5s ease;	
+		
+}
+video:hover{
+	transform: scale(0.9);
+}
+
+#video-general{
+	font-size: 20px;
+	font-family: 'ZCOOL XiaoWei', serif;
+	padding: 2%;
+	height: 30%;
+}
+/* Aca empieza Seguridad Fisica*/
+
+#section-seg{
+	background-color: #262621;
+	width: 100%;
+	height: 300px;
+	position: fixed;	
+}
+/*aca empieza el titulo index*/
+#ti-principal{
+	width: 100%;
+}
+#ti-principal h1{
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	font-size: 250%;
+	color: white;
+}
+/*aca empieza el Slider*/
+.slider{
+	width: 95%;
+	margin: auto;
+	overflow: hidden;
+}
+.slider ul{
+	display: flex;
+	padding: 0;
+	width: 400%;
+	animation: cambio 30s infinite;
+	animation-direction: alternate;
+}
+.slider li{
+	width: 100%;
+	list-style: none;
+}
+.slider img {
+	width: 100%;
+}
+@keyframes cambio {
+	0% {margin-left: 0;}
+	20% {margin-left: 0;}
+
+	30% {margin-left: -100%;}
+	45% {margin-left: -100%;}
+
+	55% {margin-left: -200%;}
+	70% {margin-left: -200%;}
+
+	80% {margin-left: -300%;}
+	100% {margin-left: -300%;}
+}
+/*Aca termina el Slider*/
+
+/*Menu Vertical - Politicas*/
+
+#nav{
+	margin-left: 50px;
+	padding: 0;
+
+}
+#nav li{
+	list-style: none;
+	padding: 10px;
+	width: 250px; /*tamaño largo del cajon del menu vertical*/
+}
+#nav li a{
+	display: block;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	padding-left: 10px;
+	border-left: 2px solid	#fff;
+	text-decoration: none;
+	color: #fff; 
+	margin-left:-12px;
+	font-size: 20px;
+	text-transform: uppercase;
+
+}
+
+#nav li a:hover{
+	border-left: 5px solid #333;
+	background: #fff;
+	color: #333;
+
+}
+#nav li .submenu{
+	display: none;
+	margin-left: 215px;
+}
+#nav li:hover .submenu{
+	display: block;
+}
+#nav li:hover .submenu li{
+	margin-top: -47px;
+	padding-bottom: 57px;
+	width: 700px;
+}
+#nav li:hover .submenu li a{
+	color: #fff;
+	padding: 7px;
+}
+#nav li:hover .submenu li a:hover{
+	background: #fff;
+	border-left: 4px solid #333;
+	color: #333;
+}
+/*Estructura funcional  RYR*/
+#caja-organigrama-general{
+	width: 100%;
+	height: 30%;
+}
+#caja-organigrama-general h1{
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	font-size: 250%;
+	color: white;
+	margin: 0;
+	padding-top: 2%;
+}
+#caja-jefe{
+	padding-left: 1%;
+	padding-top: 31.2%;
+	width: 23%;
+	height: 20%;
+	float: left;
+}
+#caja-1ercolumna{
+	width: 20%;
+	height: 20%;
+	padding-top: 10%;
+	float: left;
+
+}
+#caja-1ercolumna img{
+	padding: 5%; /*aca cambio el espacio entre la botones de la primer columna*/
+}
+#caja-2dacolumna{
+	width: 20%;
+	height: 20%;
+	float: left;
+	padding-top: 11%;
+	padding-left: 5%;
+}
+
+#boton-jefe:active{
+	
+
+}
+/*aca empieza politica 1 y 2*/
+#contenedor-gral{
+	width: 100%;
+	padding-top: 3%;
+	height: 95%;
+	display: inline-block;
+}
+#boton-descargar{
+	margin-left: 15%;	
+}
+#contenedor-doc{
+	float: left;
+}
+#titulo-poli{
+	text-align: center;
+	color: #fff;
+	font-family: 'Raleway', sans-serif;
+	font-size: 40px;
+}
+/*Aca empieza Menu Vertical - Procedimientos*/
+#nav-proce{
+	margin-left: 50px;
+	padding: 0;
+	float: left;
+	font-family: consolas;
+	font-size: 15px;
+}
+#nav-proce li{
+	list-style: none;
+	padding: 10px;
+	width: 250px; /*tamaño largo del cajon del menu vertical*/
+}
+#nav-proce li a{
+	display: block;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	padding-left: 10px;
+	border-left: 2px solid	#fff;
+	text-decoration: none;
+	color: #fff; 
+	margin-left:-12px;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+#nav-proce li a:hover{
+	border-left: 5px solid #333;
+	background: #fff;
+	color: #333;
+}
+#nav-proce li ul{
+	display: none;
+	margin-left: 215px;
+}
+#nav-proce li:hover ul{
+	display: block;
+}
+#nav-proce li:hover ul li{
+	margin-top: -47px;
+	padding-bottom: 57px;
+	width: 610px;
+}
+#nav-proce li:hover ul li a{
+	color: #fff;	
+}
+#nav-proce li:hover ul li a:hover{
+	background: #fff;
+	border-left: 4px solid #333;
+	color: #333;
+}
+/*Titulo procedimientos*/
+#titulo-proce{
+	text-align: center;
+	color: #fff;
+	font-family: 'Raleway', sans-serif;
+	font-size: 40px;
+}
+/*Aca empieza STORY*/
+#body-story{
+	height: 100%;
+}
+#story-subtitulo{
+	color: #fff;
+	display: block;
+	text-decoration: none;
+	font-size: 20px;
+	background: #262621;
+	padding:1%;
+	width: 17%;
+	margin-left: 4.5%;
+	margin-bottom:1%;
+	transition: all 0.5s ease;
+}
+#story-subtitulo:hover{
+	border-radius: 10px;
+	transform: scale(0.99);
+	background-color: #ddd;
+	color: black;
+}
+#story-atm{
+	padding-left: 3%;
+	height: 63.3%;
+}
+#story-atm a img{
+	padding: 1.5%;
+}
+#story-titulo{
+	text-align: center;
+	color: #fff;
+	font-family: 'Raleway', sans-serif;
+	font-size: 40px;
+}
+h1 {
+  text-shadow: 0 1px 0 #ccc,
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+}
+#separador-story{
+	width: 100%;
+	height: 10%;
+	background-color: #fff;
+	margin-left: 0;	
+}
+#story-caja{
+	padding-left: 3%;
+	height: 63.3%;
+}
+#story-caja a img{
+	padding: 1.5%;
+}
+#boton-descargar-story{
+	border-radius: 20px;
+	display: inline-block;
+	transition: all 0.5s ease;
+	padding: 0;
+}
+#boton-descargar-story:hover{
+	transform: scale(0.9);
+}
+
+/* --------------Start Bottom Up Style-------------- */
+.cm-up {
+	display: none;
+	position: fixed;
+	background: #262621;
+	height: 30px;
+	border-radius: 50px;
+	padding: 10px;
+	bottom: 10px;
+	right: 10px;
+	cursor: pointer;
+}
+.cm-up .cm-text-up {
+	border: none;
+	background: none;
+	outline: none;
+	cursor: pointer;
+	color: #fff;
+	float: left;
+	padding: 0;
+	font-size: 16px;
+	line-height: 30px;
+	transition: 0.4s;
+	width: 0px;
+}
+.cm-up .cm-icon {
+	background: #262621;
+	color: #00b2ff;
+	font-size: 20px;
+	float: right;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	transition: 0.4s
+}
+.cm-up:hover > .cm-text-up {
+	width: 150px;
+	padding: 0 6px;
+}
+.cm-up:hover > .cm-icon {
+	background: #fff;
+}
+/* --------------End Bottom Up Style-------------- */
+#input-search{
+    width: 250px;
+    height: 40px;
+    font-size: 20px;
+    text-indent: 5px;
+}
+.content-search{
+    width: 50%;
+    height: 100vh;
+    position: fixed;
+    top: 60px;
+    left: 0;
+    background: rgba(0,0,0,0.3);
+    display: none;
+}
+.content-table{
+    width: 30%;
+    max-height: 200px;
+    background: rgba(0,0,0,0.3);
+    margin-right:10px;
+    overflow-y: visible;
+    overflow-x: hidden;
+}
+.content-table table{
+    width: 10%;
+}
+
+tbody tr td a{
+    display: block;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+tbody tr td a:hover{
+    background: rgba(0,0,0,0.3);
+}
+
+

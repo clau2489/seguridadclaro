@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<!-- Cabecera del proyecto -->
+<head>
+	<title>Claro Seguridad</title>
+	<!-- Linkeo mi hoja de estilos -->
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="fonts.css">
+	<link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+	
+	<script src="http://code.jquery.com/jquery-latest.js"></script>
+		<!--scroll-->
+	<script src ="js/smooth-scroll.min.js"></script>
+	<script>
+			//All animations will take exactly 500ms
+			var scroll= new SmoothScroll('a[href*="#"]', {
+			speed: 1500,
+			speedAsDuration: true
+			});
+	</script>
+	<!--roll up-->
+	
+</head>
+
+<!-- Comienzo del body -->
+<body id="body-story">
+	<!-- Cabecera de mi sitio --> 
+	<header>
+		<h1 id="Titulo"></h1>
+	</header>
+		<!-- comienzo del section -->
+	<section id="index-story">
+		<!-- contenedor general que contiene el logo de mi sitio y el menu de navegacion -->
+		<div id="contenedor-general">
+			<!-- Contenedor-logo es el contenedor que guardara mi logo de claro -->
+			<div id="Contenedor-logo">	
+				<a href="index.html"><img src="imagenes/clarossff2.png" style="width: 130%; padding-top: 9px; padding-left: 20px"></a>
+		    </div>
+	    	<nav>	    		
+         		<ul class="navegacion">
+		         	<li><a id="menu" href="Politicas.html">Politicas</a></li>
+		         	<li><a id="menu" href="Procedimientos.html"> Procedimientos</a></li> 
+		         	<li><a id="menu"> Instructivos</a>
+				        <ul class="sub-navegacion">
+				         	<li><a id="submenu" href="VideosTutoriales.html">Videos Tutoriales</a></li>
+				         	<li><a id="submenu" href="story.html">Story Boards</a></li> 
+				        </ul> 
+				    </li>
+		         	<li><a id="menu" href="RyR.html">Roles y Responsabilidades</a></li>
+		         	<li><a id="menu">Consignas</a>
+		         		<ul class="sub-navegacion">
+				         	<li><a id="submenu" href="Plantillas y formatos.html">Plantillas y Formatos</a></li>
+				         	<li><a id="submenu" href="Protocolos de actuacion.html">Protocolos de actuación</a></li> 
+				        </ul>
+		         	</li>
+		       	</ul>
+		     </nav> 			   
+		</div>
+		<!-- fin del contenedor -->	
+		<div>
+			<h1 id="story-titulo">STORY BOARDS</h1>
+			<a id="story-subtitulo" data-scroll href="#story-atm">1- ATM DESATENDIDO</a>
+			<a id="story-subtitulo" data-scroll href="#story-caja">2- CAJA DESATENDIDA</a>
+		</div>
+		<div id="story-atm">
+			    <a><img src="imagenes/ATM desatendido/que hago ATM desatendido.png"style="width: 45% "></a>
+				<a><img src="imagenes/ATM desatendido/Escena 1 ATM Desatendido.png"style="width: 45% "></a>
+				<a><img src="imagenes/ATM desatendido/Escena 2 ATM Desatendido.png"style="width: 45%"></a>
+				<a><img src="imagenes/ATM desatendido/Escena 3 ATM Desatendido.png"style="width: 45%"></a>
+				<a><img src="imagenes/ATM desatendido/Escena 4 ATM Desatendido.png"style="width: 45%"></a>
+				<a><img src="imagenes/ATM desatendido/Escena 5 ATM Desatendido.png"style="width: 45%"></a>
+				<a href="file://saba-seguridad/share_ssff/karla%20SF%20CLARO/Web%20Seguridad%20Claro/imagenes/ATM%20Desatendido/ATM%20desatendido.pdf" target="_blank" ><img id="boton-descargar-story" src="imagenes/Boton-descargar.png" width="15%;"></a>
+			<div id="separador-story">
+			
+		    </div>
+		</div>
+		<div id="story-caja">
+			    <a><img src="imagenes/Caja desatendida/que hago Caja desatendida.png"style="width: 45% "></a>
+				<a><img src="imagenes/Caja desatendida/Escena 1 Caja desatendida.png"style="width: 45% "></a>
+				<a><img src="imagenes/Caja desatendida/Escena 2 Caja desatendida.png"style="width: 45%"></a>
+				<a><img src="imagenes/Caja desatendida/Escena 3 Caja desatendida.png"style="width: 45%"></a>
+				<a><img src="imagenes/Caja desatendida/Escena 4 Caja desatendida.png"style="width: 45%"></a>
+				<a><img src="imagenes/Caja desatendida/Escena 5 Caja desatendida.png"style="width: 45%"></a>
+				<a href="file://saba-seguridad/share_ssff/karla%20SF%20CLARO/Web%20Seguridad%20Claro/imagenes/Caja%20desatendida/Caja%20desatendida.pdf" target="_blank" ><img id="boton-descargar-story" src="imagenes/Boton-descargar.png" width="15%"></a>
+		</div>
+
+	</section>
+	<!-- fin del section -->
+	
+
+	<!-- pie de pagina -->
+	<footer>
+		<div class="footer">
+			<p>Sitio creado por Pablo Arnaldo Lopez - &copy2019 - Todos los derechos reservados </p>
+		</div>
+	</footer>
+	<div class="cm-up" id="cm-up">
+		<input type="button" class="cm-text-up" value="Subir al Inicio">
+		<span class="cm-icon">
+				<i class="fas fa-chevron-up"></i>
+		</span>
+	</div>
+	<script src="js/fontawesome-all.min.js"></script>
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/up.js"></script>        
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="js/java.js"></script>
+</body>
+<!-- fin del body -->
+
+</html>
+<!-- fin del html -->

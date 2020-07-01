@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<!-- Cabecera del proyecto -->
+<head>
+	<title>Claro Seguridad</title>
+	<!-- Linkeo mi hoja de estilos -->
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<!-- Comienzo del body -->
+<body>
+	<!-- Cabecera de mi sitio --> 
+	<header>
+		<h1 id="Titulo"></h1>
+	</header>
+
+	<!-- comienzo del section -->
+	<section id="index"style="height: 2	000px;">
+		<!-- contenedor general que contiene el logo de mi sitio y el menu de navegacion -->
+		<div id="contenedor-general">
+			<!-- Contenedor-logo es el contenedor que guardara mi logo de claro -->
+			<div id="Contenedor-logo">	
+				<a href="index.html"><img src="imagenes/clarossff2.png" style="width: 130%; padding-top: 9px; padding-left: 20px"></a>
+		    </div>
+	    	<nav>	    		
+         		<ul class="navegacion">
+		         	<li><a id="menu" href="Politicas.html">Politicas</a></li>
+		         	<li><a id="menu" href="Procedimientos.html"> Procedimientos</a></li> 
+		         	<li><a id="menu"> Instructivos</a>
+				        <ul class="sub-navegacion">
+				         	<li><a id="submenu" href="VideosTutoriales.html">Videos Tutoriales</a></li>
+				         	<li><a id="submenu" href="story.html">Story Boards</a></li> 
+				        </ul> 
+				    </li>
+		         	<li><a id="menu" href="RyR.html">Roles y Responsabilidades</a></li>
+		         	<li><a id="menu">Consignas</a>
+		         		<ul class="sub-navegacion">
+				         	<li><a id="submenu" href="Plantillas y formatos.html">Plantillas y Formatos</a></li>
+				         	<li><a id="submenu" href="Protocolos de actuacion.html">Protocolos de actuación</a></li> 
+				        </ul>
+		         	</li>
+		       	</ul>
+		     </nav> 			   
+		</div>
+		
+		<!-- fin del contenedor -->
+		
+		<div id="caja-organigrama-general">
+			<h1>ROLES Y RESPONSABILIDADES</h1>
+			<div id="caja-jefe">					
+			    <a id="boton-jefe" href="#" ><img src="imagenes/Botones estructura funcional/0-jefeSF.png" style="width: 60%;" onclick="jefe()"></a>
+			</div>
+			<div id="caja-1ercolumna">
+				<a class="jefe-ryr" >
+					<img src="imagenes/Botones estructura funcional/1-supervisor SF.png" style="width: 70%;">
+				</a>
+				<a class="jefe-ryr"><img src="imagenes/Botones estructura funcional/2-analista-1-SE.png" style="width: 70%;"></a>
+				<a class="jefe-ryr"><img src="imagenes/Botones estructura funcional/3-analista-2-SE.png" style="width: 70%;"></a>
+				<a class="jefe-ryr"><img src="imagenes/Botones estructura funcional/4-analista-1-sitios.png" style="width: 70%;"></a>
+				<a class="jefe-ryr"><img src="imagenes/Botones estructura funcional/5-analista-presupuesto.png" style="width: 70%;"></a>
+				<a class="jefe-ryr"><img src="imagenes/Botones estructura funcional/6-analista-procesos.png" style="width: 70%;"></a>
+				<a class="jefe-ryr"><img src="imagenes/Botones estructura funcional/7-supervisor-soc-.png" style="width: 70%;"></a>
+				<a class="jefe-ryr"><img src="imagenes/Botones estructura funcional/8-supervisor-sf.png" style="width: 70%;"></a>
+				
+			</div>
+			<div id="caja-2dacolumna">
+				<a class="jefe-ryr"><img src="imagenes/Botones estructura funcional/9-operadores.png" style="width: 90%;"></a>
+				<a class="jefe-ryr2"><img src="imagenes/Botones estructura funcional/10-personal-amba.png" style="width: 75%; padding-top:5%;"></a>
+				<a class="jefe-ryr2"><img src="imagenes/Botones estructura funcional/11-personal-interior.png" style="width: 75%; padding-top:4%;"></a>				
+			</div>
+
+			<div >
+				<img id="detalle" src="Imagenes/4.jpeg" style="width: 200px">
+			</div>		
+
+
+
+
+		</div>
+	</section>
+	<!-- fin del section -->
+
+	<!-- pie de pagina -->
+	<footer>
+		<div class="footer">
+			<p>Sitio creado por Pablo Arnaldo Lopez - &copy2019 - Todos los derechos reservados </p>
+		</div>
+	</footer>
+	<div class="cm-up" id="cm-up">
+		<input type="button" class="cm-text-up" value="Subir al Inicio">
+		<span class="cm-icon">
+				<i class="fas fa-chevron-up"></i>
+		</span>
+	</div>
+	<script src="js/fontawesome-all.min.js"></script>
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/up.js"></script> 
+	<script src="funciones.js"></script>        
+	        
+</body>
+<!-- fin del body -->
+
+</html>
+<!-- fin del html -->
